@@ -122,7 +122,15 @@ footer {
     h2 {
         text-align: center;
     }
-    h3 {
-        text-align: center;
+    .contact-grid {
+        display: grid;
+        max-width: inherit;
+        max-height: inherit;
+        grid-template: 1fr 1fr / 1fr 1fr;
+        justify-content: center;
+        #linked-in {
+            grid-row: 1;
+            grid-column: 1;
+        }
     }
 }
