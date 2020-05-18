@@ -173,4 +173,25 @@ footer nav a:hover {
   -ms-grid-column: 1;
   grid-column: 1;
 }
+
+.contact-flex .contact-grid #Github {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.contact-flex .contact-grid #Medium {
+  -ms-grid-row: 1;
+  grid-row: 1;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.contact-flex .contact-grid #twitter {
+  -ms-grid-row: 2;
+  grid-row: 2;
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
 /*# sourceMappingURL=style.css.map */
