@@ -3,12 +3,11 @@
   padding: 0; }
 
 header {
-  max-height: 50vh;
+  padding-bottom: 1vh;
   display: flex;
   background-image: url("../images/space.jpg");
   background-size: cover;
-  max-width: 100vw;
-  align-content: space-between; }
+  max-width: 100vw; }
   header h4 {
     color: white;
     margin-top: 1vh;
@@ -79,5 +78,16 @@ footer {
       color: white; }
     footer nav a:hover {
       color: yellow; }
+
+.contact-flex {
+  max-width: inherit;
+  max-height: inherit;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column; }
+  .contact-flex h2 {
+    text-align: center; }
+  .contact-flex h3 {
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */
