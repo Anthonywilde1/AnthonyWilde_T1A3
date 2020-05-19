@@ -276,6 +276,7 @@ footer nav a:hover {
 
 .flex-project .P1 a {
   color: hotpink;
+  /* object in mirror is closer then it appears but for reals this 'a' link is MESSED UP */
 }
 
 .flex-project .P2 {
