@@ -1,6 +1,23 @@
 * {
   margin: 0;
   padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* a:link {
+  color: hotpink;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+* a:visited {
+  color: hotpink;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+* a:hover {
+  color: yellow;
+  text-shadow: 2px 2px 4px #000000;
 }
 
 header {
@@ -52,8 +69,8 @@ header nav a:hover {
 
 body {
   background-color: wheat;
-  max-height: 100vh;
-  max-width: 100vw;
+  min-height: 100vh;
+  min-width: 100vw;
 }
 
 .welcome-flex {
@@ -230,8 +247,7 @@ footer nav a:hover {
 }
 
 .flex-project {
-  max-width: inherit;
-  max-height: inherit;
+  height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

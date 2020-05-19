@@ -1,6 +1,21 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    a:link {
+        color: hotpink;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    a:visited {
+        color: hotpink;
+        text-shadow: 2px 2px 4px #000000;
+    }
+
+    a:hover {
+        color: yellow;
+        text-shadow: 2px 2px 4px #000000;
+    }
 }
 
 header {
@@ -49,8 +64,8 @@ header {
 
 body {
     background-color: wheat;
-    max-height: 100vh;
-    max-width: 100vw;
+    min-height: 100vh;
+    min-width: 100vw;
 }
 
 .welcome-flex {
@@ -144,6 +159,7 @@ footer {
                 position: relative;
                 width: 100%;
                 height: 100%;
+               
                 h3{
                     text-align: center;
                     position: absolute;
@@ -186,8 +202,8 @@ footer {
 }
 
 .flex-project {
-        max-width: inherit;
-        max-height: inherit;
+        
+        height: 100%;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
