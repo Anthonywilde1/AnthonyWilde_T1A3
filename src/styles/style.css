@@ -266,6 +266,7 @@ footer nav a:hover {
 .flex-project .P1 {
   margin: 2vh 12.5vw 2vh 12.5vw;
   max-width: 75vw;
+  background-color: #b3caf5;
   text-align: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -275,6 +276,7 @@ footer nav a:hover {
 
 .flex-project .P2 {
   margin: 2vh 12.5vw 2vh 12.5vw;
+  background-color: #b3caf5;
   max-width: 75vw;
   text-align: left;
   border: solid black 1px;
@@ -282,6 +284,7 @@ footer nav a:hover {
 
 .flex-project .P3 {
   margin: 2vh 12.5vw 2vh 12.5vw;
+  background-color: #b3caf5;
   max-width: 75vw;
   text-align: right;
   -webkit-box-pack: center;
