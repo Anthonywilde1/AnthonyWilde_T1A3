@@ -212,16 +212,20 @@ footer {
         }
 
     .P1 {   
-            margin: 2vh 12.5vw 2vh 12.5vw;
+        margin: 2vh 12.5vw;
             max-width: 75vw;
             background-color: #b3caf5;
             text-align: center;
             justify-content: center;
             border: solid black 1px;
+            a {
+                color: hotpink;
+                
+            } 
         } 
 
     .P2 {
-        margin: 2vh 12.5vw 2vh 12.5vw;
+        margin: 2vh 12.5vw;
         background-color: #b3caf5;
         max-width: 75vw;
         text-align: left;
@@ -229,7 +233,7 @@ footer {
         }   
 
     .P3 {
-        margin: 2vh 12.5vw 2vh 12.5vw;
+        margin: 2vh 12.5vw;
         background-color: #b3caf5;
         max-width: 75vw;
         text-align: right;

@@ -264,7 +264,7 @@ footer nav a:hover {
 }
 
 .flex-project .P1 {
-  margin: 2vh 12.5vw 2vh 12.5vw;
+  margin: 2vh 12.5vw;
   max-width: 75vw;
   background-color: #b3caf5;
   text-align: center;
@@ -274,8 +274,12 @@ footer nav a:hover {
   border: solid black 1px;
 }
 
+.flex-project .P1 a {
+  color: hotpink;
+}
+
 .flex-project .P2 {
-  margin: 2vh 12.5vw 2vh 12.5vw;
+  margin: 2vh 12.5vw;
   background-color: #b3caf5;
   max-width: 75vw;
   text-align: left;
@@ -283,7 +287,7 @@ footer nav a:hover {
 }
 
 .flex-project .P3 {
-  margin: 2vh 12.5vw 2vh 12.5vw;
+  margin: 2vh 12.5vw;
   background-color: #b3caf5;
   max-width: 75vw;
   text-align: right;
