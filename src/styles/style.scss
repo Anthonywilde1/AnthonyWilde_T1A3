@@ -245,8 +245,7 @@ footer {
 
     .flex-blog {
         display: flex;
-        max-width: inherit;
-        max-height: inherit;
+        height: 100%;
         flex-direction: column;
         h2 {
             text-align: center;
@@ -255,6 +254,7 @@ footer {
             grid-template-columns: repeat(6, 1fr);
             .gridone  {
               grid-column: 2;
+              margin-bottom: 3vh;
             }
             .gridtwo {
                 grid-column: 1;
@@ -265,6 +265,7 @@ footer {
             }
             .gridfour {
                 grid-column: 4;
+                margin-bottom: 3vh;
             }
             .gridfive {
                 grid-column: 5;
