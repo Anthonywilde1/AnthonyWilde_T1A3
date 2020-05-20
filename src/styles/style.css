@@ -394,6 +394,9 @@ footer nav a:hover {
   #Medium a, #twitter a, #Github a, #linked-in a {
     font-size: 150%;
   }
+  #b {
+    font-size: 100%;
+  }
 }
 
 /*this is the end of media query tablets */
