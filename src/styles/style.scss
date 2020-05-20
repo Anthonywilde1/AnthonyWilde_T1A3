@@ -4,6 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    a {
+        font-family: 'Roboto', sans-serif;
+    }
     a:link {
         color: hotpink;
         text-shadow: 2px 2px 4px #000000;
@@ -35,6 +38,8 @@ header {
     background-size: cover;
     width: 100vw;
     min-height: 10vh;
+    position: fixed; 
+    top: 0; 
     
     
   
@@ -73,9 +78,10 @@ header {
 }
 
 body {
-    background-color: wheat;
+    background: linear-gradient(180deg, rgba(245,222,179,1) 0%, rgba(254,200,100,1) 100%);
     min-height: 100vh;
     min-width: 100vw;
+    
 }
 
 .welcome-flex {

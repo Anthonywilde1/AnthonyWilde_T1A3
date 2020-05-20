@@ -6,6 +6,10 @@
           box-sizing: border-box;
 }
 
+* a {
+  font-family: 'Roboto', sans-serif;
+}
+
 * a:link {
   color: hotpink;
   text-shadow: 2px 2px 4px #000000;
@@ -39,6 +43,8 @@ header {
   background-size: cover;
   width: 100vw;
   min-height: 10vh;
+  position: fixed;
+  top: 0;
 }
 
 header h4 {
@@ -79,7 +85,8 @@ header nav a:hover {
 }
 
 body {
-  background-color: wheat;
+  background: -webkit-gradient(linear, left top, left bottom, from(wheat), to(#fec864));
+  background: linear-gradient(180deg, wheat 0%, #fec864 100%);
   min-height: 100vh;
   min-width: 100vw;
 }
