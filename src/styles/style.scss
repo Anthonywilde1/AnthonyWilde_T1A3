@@ -254,11 +254,12 @@ footer {
             grid-template-columns: repeat(6, 1fr);
             .gridone  {
               grid-column: 2;
-              margin-bottom: 3vh;
+              
             }
             .gridtwo {
                 grid-column: 1;
                 text-align: right;
+                margin-bottom: 3vh;
             }
             .gridthree {
                 grid-column: 3;
