@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -16,6 +18,12 @@
         color: yellow;
         text-shadow: 2px 2px 4px #000000;
     }
+}
+
+h1, h2, h3, h4 { 
+    margin: 1vh;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
 }
 
 header {
@@ -73,14 +81,26 @@ body {
     max-height: inherit;
     max-width: inherit;
     flex-direction: column;
-    h1 { 
-        margin: 1vh;
-        text-align: center;
+    
+    .Me {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 100%;
+        width: 100%;
+        opacity: 0;
+        transition: .5s ease;
+        background-color: #008CBA;
     }
     img {
         max-height: 70vh;
         max-width: 70vw;
         margin: 5% 15% 5% 15%;
+    img:hover .Me {
+        opacity: 1;
+        }    
     }
     p {
         text-align: center;
@@ -137,9 +157,7 @@ footer {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    h2 {
-        text-align: center;
-    }
+    
     .contact-grid {
         display: grid;
         max-width: inherit;
@@ -207,9 +225,7 @@ footer {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-    h1 {
-            text-align: center;
-        }
+
 
     .P1 {   
         margin: 2vh 12.5vw;
@@ -247,8 +263,7 @@ footer {
         display: flex;
         height: 100%;
         flex-direction: column;
-        h2 {
-            text-align: center;
+        
         }
         .grid {
             grid-template-columns: repeat(6, 1fr);
@@ -277,4 +292,4 @@ footer {
             }
         }
         
-    }
+    
