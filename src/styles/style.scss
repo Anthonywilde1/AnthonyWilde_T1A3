@@ -1,10 +1,6 @@
+@import url('style2.css');
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto&display=swap');
-@import url('style.scss');
 
-html {
-    overflow: -moz-scrollbars-vertical; 
-    overflow-y: scroll;
-}
 
 * {
     margin: 0;
@@ -47,7 +43,8 @@ header {
     width: 100vw;
     min-height: 5vh;
     position: fixed; 
-    top: 0; 
+    top: 0;
+    z-index: 1; 
     &+ div {
         margin-top: 13vh;
     }
@@ -94,7 +91,7 @@ body {
     min-width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: space-between;    
 }
 
 .welcome-flex {
@@ -243,7 +240,7 @@ footer {
 
 .flex-project {
         
-        height: 100%;
+        min-height: 75vh;
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -283,7 +280,7 @@ footer {
 
     .flex-blog {
         display: flex;
-        height: 75vh;
+        min-height: 75vh;
         flex-direction: column;
         
         }
@@ -293,8 +290,11 @@ footer {
         h1{
                 font-size: 400%;
             }
-        h2, h3, h4, p, a {
+        h2, h3, h4, a {
             font-size: 200%;
+        }
+        p {
+            font-size: 150%;
         }
 
         #Medium a, #twitter a, #Github a, #linked-in a {
@@ -315,6 +315,9 @@ footer {
             .gridone {
                 grid-row: 1;
                 grid-column: 1;
+                img {
+                    margin-top: 12.5%;
+                }
             }
             .gridtwo {
                 grid-row: 1;
@@ -329,6 +332,9 @@ footer {
             .gridfour {
                 grid-row: 2;
                 grid-column: 2;
+                img {
+                    margin-top: 12.5%;
+                }
                
             }
             .gridfive {
@@ -339,12 +345,60 @@ footer {
             .gridsix {
                 grid-row: 3;
                 grid-column: 1;
+                margin-top: 12.5%;
             }
         }
         }/*this is the end of media query tablets */
 
-@media screen and (min-width:1000px) {
+@media screen and (min-width:1000px){
     
+    .welcome-flex img {
+        max-height: 90vh !important;
+    }
+    .grid {
+        max-width: 100vw;
+        
+        display: grid;
+        flex-direction: row;
+        grid-template-rows: repeat(3, 33.3vh);
+        grid-template-columns: repeat(2, 50vw);
+        
+        .gridone {
+            grid-row: 1;
+            grid-column: 1;
+            img {
+                margin-top: 7.5% !important;
+            }
+        }
+        .gridtwo {
+            grid-row: 1;
+            grid-column: 2;
+            overflow: scroll;
+        }
+        .gridthree {
+            grid-row: 2;
+            grid-column: 1;
+            overflow: scroll;
+        }
+        .gridfour {
+            grid-row: 2;
+            grid-column: 2;
+            img {
+                margin-top: 12.5%;
+            }
+           
+        }
+        .gridfive {
+            grid-row: 3;
+            grid-column: 2;
+            overflow: scroll;
+        }
+        .gridsix {
+            grid-row: 3;
+            grid-column: 1;
+            margin-top: 12.5%;
+        }
+    }
 }
 
 

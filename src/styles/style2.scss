@@ -11,4 +11,6 @@ body::-webkit-scrollbar-thumb {
   outline: 5px solid slategrey;
 }
 
-
+body {
+  overflow-x: hidden;
+}

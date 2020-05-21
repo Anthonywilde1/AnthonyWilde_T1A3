@@ -10,4 +10,8 @@ body::-webkit-scrollbar-thumb {
   background-color: hotpink;
   outline: 5px solid slategrey;
 }
+
+body {
+  overflow-x: hidden;
+}
 /*# sourceMappingURL=style2.css.map */
