@@ -27,12 +27,16 @@
 }
 
 h1, h2, h3, h4 {
+  color: yellow;
+  text-shadow: 2px 2px 4px black;
   margin: 1vh;
   text-align: center;
   font-family: 'Oswald', sans-serif;
 }
 
 p {
+  color: yellow;
+  text-shadow: 2px 2px 4px black;
   margin-left: 2vw;
   margin-right: 4vw;
   font-family: 'Roboto', sans-serif;
@@ -93,8 +97,7 @@ header nav a:hover {
 }
 
 body {
-  background: -webkit-gradient(linear, left top, left bottom, from(wheat), to(#fec864));
-  background: linear-gradient(180deg, wheat 0%, #fec864 100%);
+  background-color: black;
   min-height: 100vh;
   min-width: 100vw;
   display: -webkit-box;
@@ -167,6 +170,7 @@ footer {
 }
 
 footer h3 {
+  color: white;
   text-align: center;
   width: 50vw;
   margin-top: 1vh;
