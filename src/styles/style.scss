@@ -454,6 +454,8 @@ footer {
             overflow-y: scroll;
            
         }
+        
+        
         .gridsix {
             grid-row: 3;
             grid-column: 1;
@@ -465,27 +467,33 @@ footer {
                 margin-top: 2.5%;
                 
             }
+        }
+        
         .gridseven {
                 grid-row: 4;
-                grid-column: 1;
+                grid-column: 2;
                 img {
                     height: 95%;
                     width: 50%;
                     margin-left: 25% !important;
                     margin-top: 2.5%;
             }
+        }
+        
         .grideight {
                 grid-row: 4;
-                grid-column: 2;
+                grid-column: 1;
                 overflow-y: scroll;
                 overflow-x: hidden;
             }
+        
         .gridnine {
                 grid-row: 5;
                 grid-column: 2;
                 overflow-y: scroll;
                 overflow-x: hidden;
             }
+        
         .gridten {
                 grid-row: 5;
                 grid-column: 1;
