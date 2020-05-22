@@ -317,7 +317,7 @@ footer {
             
             display: grid;
             flex-direction: row;
-            grid-template-rows: repeat(3, 33.3vh);
+            grid-template-rows: repeat(5, 33.3vh);
             grid-template-columns: repeat(2, 50vw);
             
             .gridone {
@@ -358,6 +358,28 @@ footer {
                 grid-column: 1;
                 margin-top: 12.5%;
             }
+            .gridseven {
+                grid-row: 4;
+                grid-column: 2;
+                margin-top: 12.5%;
+            }
+            .grideight {
+                grid-row: 4;
+                grid-column: 1;
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+            .gridnine {
+                grid-row: 5;
+                grid-column: 2;
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+            .gridten {
+                grid-row: 5;
+                grid-column: 1;
+                margin-top: 12.5%;
+            }
         }
         }/*this is the end of media query tablets */
 
@@ -391,7 +413,7 @@ footer {
         
         display: grid;
         flex-direction: row;
-        grid-template-rows: repeat(3, 33.3vh);
+        grid-template-rows: repeat(5, 33.3vh);
         grid-template-columns: repeat(2, 50vw);
         
         .gridone {
@@ -442,6 +464,36 @@ footer {
                 margin-left: 25% !important;
                 margin-top: 2.5%;
                 
+            }
+        .gridseven {
+                grid-row: 4;
+                grid-column: 1;
+                img {
+                    height: 95%;
+                    width: 50%;
+                    margin-left: 25% !important;
+                    margin-top: 2.5%;
+            }
+        .grideight {
+                grid-row: 4;
+                grid-column: 2;
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+        .gridnine {
+                grid-row: 5;
+                grid-column: 2;
+                overflow-y: scroll;
+                overflow-x: hidden;
+            }
+        .gridten {
+                grid-row: 5;
+                grid-column: 1;
+                img {
+                    height: 95%;
+                    width: 50%;
+                    margin-left: 25% !important;
+                    margin-top: 2.5%;
             }
         }
     }
