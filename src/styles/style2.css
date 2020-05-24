@@ -82,4 +82,26 @@ body {
     background-color: white;
   }
 }
+
+@-webkit-keyframes swole {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    -webkit-transform: scale(3, 3);
+            transform: scale(3, 3);
+  }
+}
+
+@keyframes swole {
+  0% {
+    -webkit-transform: scale(1, 1);
+            transform: scale(1, 1);
+  }
+  100% {
+    -webkit-transform: scale(3, 3);
+            transform: scale(3, 3);
+  }
+}
 /*# sourceMappingURL=style2.css.map */

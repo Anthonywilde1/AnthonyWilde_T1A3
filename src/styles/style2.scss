@@ -30,3 +30,8 @@ body {
   50% {background-color: red;}
   100% {background-color:white;}
 }
+
+@keyframes swole {
+  0% {transform: scale(1,1);}
+  100% {transform: scale(3,3);}
+}
