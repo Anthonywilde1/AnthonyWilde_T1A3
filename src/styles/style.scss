@@ -93,41 +93,6 @@ body {
     flex-direction: column;
     justify-content: space-between;    
 }
-
-.welcome-flex {
-    display: flex;
-    min-height: 70vh;
-    flex-direction: column;
-    
-    
-    .Me {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #008CBA;
-    }
-    img {
-        max-height: 70vh;
-        max-width: 70vw;
-        margin: 5% 15% 5% 15%;
-    img:hover .Me {
-        opacity: 1;
-        }    
-    }
-    p {
-        text-align: center;
-        justify-content: flex-end;
-        padding-bottom: 1vh;
-    }
-
-}
-
 footer {
     color: white;
     display: flex;
@@ -168,6 +133,26 @@ footer {
   
     }
 }
+/* end of general css for all pages */
+
+.welcome-flex {
+    display: flex;
+    min-height: 70vh;
+    flex-direction: column;
+    img {
+        max-height: 70vh;
+        max-width: 70vw;
+        margin: 5% 15% 5% 15%;
+    }
+    p {
+        text-align: center;
+        justify-content: flex-end;
+        padding-bottom: 1vh;
+    }
+
+}
+/* end of index page */
+
 
 .contact-flex {
     width: 100vw;
@@ -238,25 +223,23 @@ footer {
             }
     }
 }
-
+/* end of contact info */
 .flex-project {
         
-        min-height: 75vh;
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-
-
+    min-height: 75vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     .P1 {   
         margin: 2vh 12.5vw;
-            max-width: 75vw;
-            background-color: #b3caf5;
-            text-align: center;
-            justify-content: center;
-            border: solid black 1px;
-            a {
-                color: hotpink;
-                /* object in mirror is closer then it appears but for reals this 'a' link is MESSED UP */
+        max-width: 75vw;
+        background-color: #b3caf5;
+        text-align: center;
+        justify-content: center;
+        border: solid black 1px;
+        a {
+            color: hotpink;
+               
             } 
         } 
 
@@ -278,15 +261,15 @@ footer {
         }
         
     }
-
-    .flex-blog {
-        display: flex;
-        min-height: 75vh;
-        flex-direction: column;
+/* end of project page */
+.flex-blog {
+    display: flex;
+    min-height: 75vh;
+    flex-direction: column;
         
-        }
-        
-        
+    }
+/* end of blog page and end of mobile queries */        
+/* start of the tablet query */        
 @media screen and (min-width:600px) and (max-width:999px){
         
     audio {
@@ -311,6 +294,7 @@ footer {
         }
         #twitter {
             background-position-y: top !important;
+            /* picture looks better on top position */
         }
         .grid {
             max-width: 100vw;
@@ -382,7 +366,7 @@ footer {
             }
         }
         }/*this is the end of media query tablets */
-
+/* media query for desktop begins! */
 @media screen and (min-width:1000px){
     
     .welcome-flex img {
@@ -391,7 +375,7 @@ footer {
         margin-left: 35vw !important;
         margin-bottom: 5vh;
         margin-top: 5vh;
-    }
+    } /* the welcome image has poor scaling in desktop so i had 2 modify it */
     
     .welcome-flex a {
         font-size: 125%;
@@ -525,7 +509,7 @@ footer {
     audio {
         margin-left: 37% !important;
     }
-}
+} /* end of queries */
 
 
         
