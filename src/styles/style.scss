@@ -44,7 +44,9 @@ header {
     min-height: 5vh;
     position: fixed; 
     top: 0;
-    z-index: 1; 
+    z-index: 1;
+    animation-name: zoomer;
+    animation-duration: 1s;
     &+ div {
         margin-top: 13vh;
     }
@@ -91,31 +93,21 @@ body {
     min-width: 100vw;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;    
+    justify-content: space-between;  
+    animation: diffcolor 3s infinite;
 }
 
 .welcome-flex {
     display: flex;
     min-height: 70vh;
     flex-direction: column;
-    
-    
-    .Me {
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 100%;
-        width: 100%;
-        opacity: 0;
-        transition: .5s ease;
-        background-color: #008CBA;
-    }
     img {
         max-height: 70vh;
         max-width: 70vw;
         margin: 5% 15% 5% 15%;
+        animation-name: spinner;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
     img:hover .Me {
         opacity: 1;
         }    
@@ -137,6 +129,8 @@ footer {
     align-content: space-between;
     margin-top: 1vh;
     min-height: 10vh;
+    animation-name: zoomer;
+    animation-duration: 1s;
     h3 {
         text-align: center;
         width: 50vw;
@@ -256,7 +250,6 @@ footer {
             border: solid black 1px;
             a {
                 color: hotpink;
-                /* object in mirror is closer then it appears but for reals this 'a' link is MESSED UP */
             } 
         } 
 

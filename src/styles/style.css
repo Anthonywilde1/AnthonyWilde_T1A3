@@ -49,6 +49,10 @@ header {
   position: fixed;
   top: 0;
   z-index: 1;
+  -webkit-animation-name: zoomer;
+          animation-name: zoomer;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 header + div {
@@ -107,6 +111,8 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  -webkit-animation: diffcolor 3s infinite;
+          animation: diffcolor 3s infinite;
 }
 
 .welcome-flex {
@@ -120,24 +126,16 @@ body {
           flex-direction: column;
 }
 
-.welcome-flex .Me {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  -webkit-transition: .5s ease;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
 .welcome-flex img {
   max-height: 70vh;
   max-width: 70vw;
   margin: 5% 15% 5% 15%;
+  -webkit-animation-name: spinner;
+          animation-name: spinner;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
 }
 
 .welcome-flex img img:hover .Me {
@@ -164,6 +162,10 @@ footer {
       align-content: space-between;
   margin-top: 1vh;
   min-height: 10vh;
+  -webkit-animation-name: zoomer;
+          animation-name: zoomer;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
 }
 
 footer h3 {
@@ -317,7 +319,6 @@ footer nav a:hover {
 
 .flex-project .P1 a {
   color: hotpink;
-  /* object in mirror is closer then it appears but for reals this 'a' link is MESSED UP */
 }
 
 .flex-project .P2 {
